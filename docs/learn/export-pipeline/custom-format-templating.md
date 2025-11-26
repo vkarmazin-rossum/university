@@ -45,6 +45,7 @@ import WIP from '../\_wip.md';
   "export_configs": [
     {
       // Optional. Specifies resulting file content encoding. Default: "utf-8".
+      // Note: Characters that cannot be encoded in the specified encoding will be silently ignored.
       "content_encoding": "utf-8",
 
       // Name of the export template used for later reference in the export pipeline.
